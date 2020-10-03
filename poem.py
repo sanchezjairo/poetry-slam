@@ -17,5 +17,14 @@ def lines_printed_random(lines_list):
          print(i, lines_list[random.randint(0, 13)])
 #lines_printed_random(lines_list)
 
+def lines_printed_customs(lines_list):
+    for i in range(len(lines_list)):
+         print(i, lines_list[-(i - 7)])
+lines_printed_customs(lines_list)
 
+lines_printed_random(lines_list)
+
+lines_printed_backwards(lines_list)
+
+print(lines_list)
          
