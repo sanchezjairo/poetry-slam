@@ -17,9 +17,5 @@ def lines_printed_random(lines_list):
          print(i, lines_list[random.randint(0, 13)])
 #lines_printed_random(lines_list)
 
-def lines_printed_customs(lines_list):
-    for i in range(len(lines_list)):
-         print(i, lines_list, random.randint(0, 5))
-         print(i, lines_list[6,13])
-lines_printed_customs(lines_list)
+
          
